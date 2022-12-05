@@ -7,6 +7,7 @@ function createBox(number) {
     
         for (let j = 0; j < number; j++) {
             const div = document.createElement("div");
+            div.classList.add("pixel");
             div.style.cssText = "width: 50px; height: 50px; border: 1px solid blue;";
             smallerContainer.appendChild(div);
         }
@@ -15,4 +16,14 @@ function createBox(number) {
     }
 }
 
+const buttonContainer = document.querySelector(".prompt-button");
+
+const buttonPrompt = document.createElement("button");
+buttonPrompt.textContent = "Number of pixels";
+buttonPrompt.style.cssText = "width: 150px; height: 35px;"
+
+buttonContainer.appendChild(buttonPrompt);
+
 createBox(5);
+
+
