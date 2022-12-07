@@ -13,13 +13,12 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border: 1px solid red;
     width: 800px;
     height: 800px;
 }
 
-.prompt-button {
+.button-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +26,17 @@ body {
     height: 50px;
 }
 
-.pixel:hover {
+#pixel {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid red;
+}
+
+#pixel:hover {
     background-color: brown;
+}
+
+#smallerContainer {
+    display: flex;
+    flex-grow: 1;
 }
