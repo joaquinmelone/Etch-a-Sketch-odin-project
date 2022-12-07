@@ -42,13 +42,18 @@ function createBox(number) {
 
         const smallerContainer = document.createElement("div");
         smallerContainer.setAttribute("id", "smallerContainer");
-        smallerContainer.style.cssText = "display: flex; border: 1px solid blue;";
+        smallerContainer.style.cssText = "display: flex;";
     
             for (let j = 0; j < number; j++) {
 
                 const div = document.createElement("div");
                 div.setAttribute("id", "pixel");
+                
                 smallerContainer.appendChild(div);
+
+                div.addEventListener('mouseover', function(e) {
+                    this.style.backgroundColor = 'black';
+                });
 
             }
 
