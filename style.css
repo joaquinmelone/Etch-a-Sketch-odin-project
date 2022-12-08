@@ -2,12 +2,17 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
     flex-direction: column;
-    height: 100vh;
     box-sizing: border-box;
     background-color: rgb(34, 37, 38);
 }
