@@ -9,7 +9,6 @@ html {
 body {
     margin: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 100%;
     flex-direction: column;
@@ -28,6 +27,8 @@ button {
 
 footer {
     display: flex;
+    position: sticky;
+    top: 100%;
     color: aliceblue;
     background-color: black;
     justify-content: center;
@@ -40,6 +41,7 @@ footer {
 
 .main-content {
     display: flex;
+    flex-grow: 1;
     flex-direction: row;
     justify-content: space-between;
     width: 1200px;
