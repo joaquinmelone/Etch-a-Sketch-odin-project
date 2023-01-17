@@ -1,3 +1,1 @@
 # Etch-a-Sketch-odin-project
-
-This is a required project from The Odin Project, it's a web in which you can choose the amount of pixels on the screen and then "paint" over them, there's a few options like having random colors each time you paint, and also erase the whole thing with a click. Throughout the process I learned a lot about DOM, events and arrow functions, because I used them a lot in the code.
